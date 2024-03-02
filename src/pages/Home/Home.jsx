@@ -7,6 +7,7 @@ import Connect from './Connect';
 import TheWayWeWork from './TheWayWeWork';
 import BuildTheWay from './BuildTheWay';
 import BuildFor from './BuildFor';
+import LovedBy from './LovedBy';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
            <TheWayWeWork/>
            <BuildTheWay/>
            <BuildFor/>
+           <LovedBy/>
         </div>
     );
 };
