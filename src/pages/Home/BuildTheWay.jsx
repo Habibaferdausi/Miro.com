@@ -20,7 +20,7 @@ const BuildTheWay = () => {
        <div className='flex justify-between items-center'>
 <div className='max-w-[360px] '>
 <h1 className='text-[18px] leading-[24px] text-[#050038] '>Brainstorming</h1>
-<p className='text-[18px] leading-[24px] max-w-[302px] text-[#050038] my-8'>Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</p>
+<p className='text-[18px] leading-[24px] max-w-[302px] text-gray-600 my-8'>Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</p>
 <p className='text-blue-500 text-[18px] mt-5 mb-[250px] border-b-blue-500 '>Learn More →</p>
 </div>
 <div className='max-w-full'>

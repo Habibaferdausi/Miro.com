@@ -6,6 +6,7 @@ import WorkTogether from './WorkTogether';
 import Connect from './Connect';
 import TheWayWeWork from './TheWayWeWork';
 import BuildTheWay from './BuildTheWay';
+import BuildFor from './BuildFor';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
            <Connect/>
            <TheWayWeWork/>
            <BuildTheWay/>
+           <BuildFor/>
         </div>
     );
 };
