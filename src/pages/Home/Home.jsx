@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import TrustedSection from './TrustedSection';
 import Fetures from './Fetures';
+import WorkTogether from './WorkTogether';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
            <HeroSection/>
            <TrustedSection/>
            <Fetures/>
+           <WorkTogether/>
         </div>
     );
 };
