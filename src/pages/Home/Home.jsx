@@ -3,6 +3,7 @@ import HeroSection from './HeroSection';
 import TrustedSection from './TrustedSection';
 import Fetures from './Fetures';
 import WorkTogether from './WorkTogether';
+import Connect from './Connect';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
            <TrustedSection/>
            <Fetures/>
            <WorkTogether/>
+           <Connect/>
         </div>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WorkTogether() {
   return (
-    <div className='mt-[80px]'>
+    <div className='mt-[70px]'>
         <div className='grid grid-cols-2'>
             <div className='mt-[120px]'>
            <h1 className='text-[48px] font-bold text-[#050038] max-w-[440px] leading-[56px]'>Work together, wherever you work</h1> 
