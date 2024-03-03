@@ -29,7 +29,7 @@ const Footer = () => {
                    </div>
 
                    <p className='mt-9 text-white text-[11px] leading-[15px]'>Copyright © 2022 Certo Software Limited | Registered in <br/>England & Wales No. 10072356</p>
-                   <p className='mt-5 text-white text-[11px]  leading-[15px]'>Designed & developed by Bigger Picture</p>
+                   <p className='mt-5 text-white text-[11px]  leading-[15px]'>Designed & developed by <span className="border-b border-white">Bigger Picture</span> </p>
                    
                     </div>
 
@@ -68,7 +68,7 @@ const Footer = () => {
 
 
 </div>
-<div className='pt-[60px]'>
+<div className='pt-[70px]'>
     
     <div className='bg-[#FDB235] rounded-s-[40px] rounded-e-2xl max-w-[436px]'>
         <div className='px-8 py-8'>
