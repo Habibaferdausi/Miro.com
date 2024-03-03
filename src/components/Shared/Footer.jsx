@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='max-w-[1440px] mt-[110px] mx-auto bg-[#02033B] '>
-            <div className='max-w-[1056px]  mx-auto '>
-                <div className=' grid grid-cols-3'>
+            <div className='max-w-[1120px]  mx-auto '>
+                <div className='ps-5 lg:ps-0 grid lg:grid-cols-3 grid-cols-1'>
                     {/* 1st part */}
                     <div>
-                    <p className='text-white font-bold text-[23px] pt-[60px] pb-8'>Scan. Detect. Remove.</p>
+                    <p className='text-white font-bold lg:text-[23px] text-[16px] pt-[60px] pb-8'>Scan. Detect. Remove.</p>
                  {/* socal logo part */}
                    <div className='flex justify-start gap-10 mb-7'>
                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ const Footer = () => {
 
 
 
-<p className='text-[12px] leading-[15px] text-white mt-[70px] pb-[90px] max-w-[550px]'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
+<p className='text-[12px] ps-5 lg:ps-0 leading-[15px] text-white mt-[70px] pb-[90px] max-w-[550px]'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
             </div>
             
         </div>
