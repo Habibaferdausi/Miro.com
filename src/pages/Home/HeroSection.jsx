@@ -2,11 +2,11 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div className='mt-11 pt-5'>
-            <div className='flex justify-start items-center gap-[60px]'>
+        <div className='lgt:mt-11  mt-5 pt-5'>
+            <div className='lg:flex flex-row justify-start items-center lg:gap-[60px]'>
                 {/* 1st part of the section */}
-    <div className='max-w-[440px] text-[#050038] '>
-        <h1 className=' font-bold text-[48px] leading-[56px]'>Take ideas from better to best</h1>
+    <div className='max-w-[440px] mx-auto text-[#050038] '>
+        <h1 className=' font-bold lg:text-[48px]  text-[25px] lg:leading-[56px] leading-[26px]'>Take ideas from better to best</h1>
    
    <p className='my-6 text-[18px] leading-[24px]'>Miro is your team's visual platform to connect, collaborate, and create — together.</p>
     
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
       
         <div className='flex justify-center items-center'>
-            <img src="../../../public/get.svg" alt="" />
+            <img src="../../../public/get.svg" alt="" className=''/>
 
         </div>
 
@@ -31,7 +31,7 @@ const HeroSection = () => {
 {/* 
     2nd part */}
     <div className='pt-5'>
-        <img src="../../../public/headerimage-without-text.png.png" alt="" className='max-w-[640px]' />
+        <img src="../../../public/headerimage-without-text.png.png" alt="" className='lg:w-[640px]  w-[330px] mx-auto' />
     </div>
             </div>
            

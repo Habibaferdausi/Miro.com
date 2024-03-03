@@ -62,7 +62,7 @@ const Navbar = () => {
 
  {/* end side */}
 
-  <div className="navbar-end gap-5   text-[#050038] mt-2 text-[12px] lg:text-[16px]">
+  <div className="navbar-end gap-5   text-[#050038] mt-2 text-[10px] lg:text-[16px]">
     
     <div className='lg:flex hidden justify-start gap-2 items-end'>
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
